@@ -1,0 +1,15 @@
+If you’re using Python in the world of data science or scientific computing, you will soon discover that Python has two different packaging systems: pip and Conda.
+
+* which kind of dependencies?
+
+The fundamental difference between pip and Conda packaging is what they put in packages.
+
+Pip packages are Python libraries like NumPy or matplotlib.
+Conda packages include Python libraries (NumPy or matplotlib), C libraries (libjpeg), and executables (like C compilers, and even the Python interpreter itself).
+
+* pip vs Conda
+ 						pip			Conda
+Installs Python					No			Yes, as package
+3rd-party shared libraries			Inside the wheel	Yes, as package
+Executables and tools				No			Yes, as package
+Python source code				Yes, as package		Yes, as package
